@@ -174,7 +174,7 @@
     noStroke();
     textSize(charSize);
     textFont("monospace");
-    background(0);
+    background('#ffffffff');
   }
 
   function draw() {
