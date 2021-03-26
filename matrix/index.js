@@ -178,12 +178,12 @@
   }
 
   function draw() {
-    background(0, 0.4);
+    background('rgba(0, 0, 0, 0)');
     streams.forEach((s) => s.draw());
   }
 
   function windowResized() {
     resizeCanvas(innerWidth, innerHeight);
-    background(0);
+    background('rgba(0, 0, 0, 0)');
     reset();
   }
