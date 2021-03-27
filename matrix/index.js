@@ -179,7 +179,7 @@
 
   function draw() {
     background('rgba(0, 0, 0, 0)');
-    if (frameCount % 10) clear();
+    if (frameCount % random(10,30) clear();
     streams.forEach((s) => s.draw());
   }
 
