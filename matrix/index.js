@@ -179,6 +179,7 @@
 
   function draw() {
     background('rgba(0, 0, 0, 0)');
+    if (frameCount % 10) clear();
     streams.forEach((s) => s.draw());
   }
 
