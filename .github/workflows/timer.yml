@@ -1,4 +1,9 @@
 name: Sync Timer Csvfile
+
+on:
+  schedule:
+  - cron: "*/30 * * * *"
+  workflow_dispatch:
       
 jobs:
   upload_job:
