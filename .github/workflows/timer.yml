@@ -23,4 +23,3 @@ jobs:
           username: daanbreur
           repo: cdn
           remote-dir: /Serpentgameplay_Timer.csv
-          commit-message: Synced the CSV
