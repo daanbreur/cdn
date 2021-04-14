@@ -15,7 +15,7 @@ jobs:
       - name: Setup node
         uses: actions/setup-node@v1
       - name: Download CSV from Google Sheets
-        run: curl -o Serpentgameplay_Timer.csv "https://docs.google.com/spreadsheets/d/1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY/export?exportFormat=csv"
+        run: curl -o Serpentgameplay_Timer.csv "https://docs.google.com/spreadsheets/d/1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY/export?format=csv&id=1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY&gid=0"
       - name: Upload to GitHub
         uses: LasyIsLazy/github-upload-action@v0.0.2
         with:
