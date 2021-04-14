@@ -1,0 +1,19 @@
+name: Sync Timer Csvfile
+      
+jobs:
+  upload_job:
+    runs-on: ubuntu-latest
+    name: Upload
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Setup node
+        uses: actions/setup-node@v1
+      - run: curl -o /tmp/Serpentgameplay_Timer.csv "https://doc-0o-60-sheets.googleusercontent.com/export/5r5ug6k368hgnk6ngrgi0rgols/4unmakkmh98sss57pr57840s80/1618393455000/103165476965876449505/112942606954827740002/1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY?format=csv&id=1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY&gid=0&dat=AMvwolZJZzz5IUjDm9d_4bUTgiYtO9RhychpdCdrBvKR_rlWsoGGQYU5xgAFYob_RipsJV_0_RIjUnZrRnRRPDOGUB7SuUAyElbSMWOiYsFSTQKe4BdZxiK6eny4LwBt5A7UBZEIyiNwhWrVgfVoD7rmk_lSRluX619_DyJosObWjwVvNcju52GFKbo1N2_iRGmTqbFqiEWgxmbuBHFy9bpq5X0cs3svVzFwWFKtg3Si59hNGIbNuKNPyEOJKhGamFKU2Q3Ljvrhs6M3YyF7Fs_Y-tEK1AXSNdQ-bDl49yJbAuiqhNGw-NjnXrX3nVYVzKDjhZkVW0im5P7pAHedBgniP3Pgdyn41fBZwWYrNYolgPLCXu_OLt_UVqQfX4RwLqDb61GnG2H7g1tBSDCVqH4vHXJ1T_iuEQ11ieq_1in2qrw-aoBOZzI7c8ssxiUpsYCIBvatFB6uxcRh3rMyBfdaJQwIOdDEkyUVHXbSrKBiGh-Am-uc_COlDkVqZuYef8GbpUhNE0xiXykRSwDTJFNIkDDa-x57ukrx3kfr1OGompf0xMWrnwJrx4N56NIYZjXWXT-tFX9rIKZTjCR9JaNZq-mgZj1ILfhA83ZgWBTEWL39844ajt5NzWirzLS0m_saZwqoegvEiTt9k0Zp6x0AfseUupyNYjvq5cde6YLRC6VNzIZv4_sFu4zXHEqGYNl8RnilrBUQrUN9Ld3XDLjwahcML9dm"
+      - name: Upload to GitHub
+        uses: LasyIsLazy/github-upload-action@v0.0.1
+        with:
+          access-token: ${{ secrets.ACCESS_TOKEN }}
+          file-path: /tmp/Serpentgameplay_Timer.csv
+          username: daanbreur
+          repo: cdn
