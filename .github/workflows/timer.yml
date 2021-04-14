@@ -14,12 +14,12 @@ jobs:
         uses: actions/checkout@v2
       - name: Setup node
         uses: actions/setup-node@v1
-      - run: curl -o /tmp/Serpentgameplay_Timer.csv "https://docs.google.com/spreadsheets/d/1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY/export?exportFormat=csv"
+      - name: Download CSV from Google Sheets
+        run: curl -o Serpentgameplay_Timer.csv "https://docs.google.com/spreadsheets/d/1HKpJB5bKrjQFp3OV2pXmnyVTNffAXH1JCL702kDjdEY/export?exportFormat=csv"
       - name: Upload to GitHub
-        uses: LasyIsLazy/github-upload-action@v0.0.1
+        uses: LasyIsLazy/github-upload-action@v0.0.2
         with:
           access-token: ${{ secrets.ACCESS_TOKEN }}
-          file-path: /tmp/Serpentgameplay_Timer.csv
+          file-path: Serpentgameplay_Timer.csv
           username: daanbreur
           repo: cdn
-          remote-dir: /Serpentgameplay_Timer.csv
