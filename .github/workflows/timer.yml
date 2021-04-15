@@ -1,4 +1,4 @@
-name: Sync Timer Csvfile
+name: SerpenttimerCSV Sync
 
 on:
   schedule:
@@ -8,7 +8,7 @@ on:
 jobs:
   upload_job:
     runs-on: ubuntu-latest
-    name: Upload
+    name: Sync
     steps:
       - name: Checkout
         uses: actions/checkout@v2
