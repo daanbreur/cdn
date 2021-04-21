@@ -213,18 +213,18 @@ Tijdstip,Timestamp,Timertijd,Totale tijd,Information,VOD link
 18-4-2021 12:00,25:01:00,3:01:02,211:00:00,,https://www.twitch.tv/videos/990627424?t=25h01m
 18-4-2021 13:00,26:01:00,2:25:24,212:00:00,,https://www.twitch.tv/videos/990627424?t=26h01m
 18-4-2021 14:00,27:01:00,2:07:33,213:00:00,,https://www.twitch.tv/videos/990627424?t=27h01m
-18-4-2021 15:00,0:36:10,2:04:59,214:00:00,,
-18-4-2021 16:00,1:36:07,1:20:41,215:00:00,,
-18-4-2021 17:00,2:36:07,0:58:05,216:00:00,,
-18-4-2021 18:00,3:36:07,1:59:27,217:00:00,,
-18-4-2021 19:00,4:36:07,1:24:17,218:00:00,,
-18-4-2021 20:00,5:36:07,1:54:27,219:00:00,,
-18-4-2021 21:00,6:36:07,5:01:27,220:00:00,,
-18-4-2021 22:00,7:36:07,18:27:27,221:00:00,,
-18-4-2021 23:00,8:36:07,28:03:00,222:00:00,,
-19-4-2021 0:00,9:36:07,,223:00:00,moet worden gecorrigeerd,
-19-4-2021 1:00,10:36:07,,224:00:00,moet worden gecorrigeerd,
-19-4-2021 2:00,11:36:07,,225:00:00,moet worden gecorrigeerd,
+18-4-2021 15:00,0:22:00,2:00:24,214:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=0h22m
+18-4-2021 16:00,1:22:00,1:29:31,215:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=1h22m
+18-4-2021 17:00,2:22:00,1:03:54,216:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=2h22m
+18-4-2021 18:00,3:22:00,1:43:47,217:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=3h22m
+18-4-2021 19:00,4:22:00,1:35:26,218:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=4h22m
+18-4-2021 20:00,5:22:00,1:25:46,219:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=5h22m
+18-4-2021 21:00,6:22:00,5:14:55,220:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=6h22m
+18-4-2021 22:00,7:22:00,,221:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=7h22m
+18-4-2021 23:00,8:22:00,,222:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=8h22m
+19-4-2021 0:00,9:22:00,,223:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=9h22m
+19-4-2021 1:00,10:22:00,,224:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=10h22m
+19-4-2021 2:00,11:22:00,,225:00:00,moet worden gecorrigeerd,https://www.twitch.tv/videos/992011152?t=11h22m
 19-4-2021 3:00,0:00:00,,226:00:00,moet worden gecorrigeerd,
 19-4-2021 4:00,1:00:00,,227:00:00,moet worden gecorrigeerd,
 19-4-2021 5:00,2:00:00,,228:00:00,moet worden gecorrigeerd,
@@ -244,15 +244,15 @@ Tijdstip,Timestamp,Timertijd,Totale tijd,Information,VOD link
 19-4-2021 19:00,16:00:00,,242:00:00,moet worden gecorrigeerd,
 19-4-2021 20:00,17:00:00,,243:00:00,moet worden gecorrigeerd,
 19-4-2021 21:00,18:00:00,,244:00:00,moet worden gecorrigeerd,
-19-4-2021 22:00,,,245:00:00,moet worden gecorrigeerd,
-19-4-2021 23:00,,,246:00:00,moet worden gecorrigeerd,
-20-4-2021 0:00,,,247:00:00,moet worden gecorrigeerd,
-20-4-2021 1:00,,,248:00:00,moet worden gecorrigeerd,
-20-4-2021 2:00,,,249:00:00,moet worden gecorrigeerd,
-20-4-2021 3:00,,,250:00:00,moet worden gecorrigeerd,
-20-4-2021 4:00,,,251:00:00,moet worden gecorrigeerd,
-20-4-2021 5:00,,,252:00:00,moet worden gecorrigeerd,
-20-4-2021 6:00,,,253:00:00,moet worden gecorrigeerd,
+19-4-2021 22:00,19:00:00,,245:00:00,moet worden gecorrigeerd,
+19-4-2021 23:00,20:00:00,,246:00:00,moet worden gecorrigeerd,
+20-4-2021 0:00,21:00:00,,247:00:00,moet worden gecorrigeerd,
+20-4-2021 1:00,22:00:00,,248:00:00,moet worden gecorrigeerd,
+20-4-2021 2:00,23:00:00,,249:00:00,moet worden gecorrigeerd,
+20-4-2021 3:00,24:00:00,,250:00:00,moet worden gecorrigeerd,
+20-4-2021 4:00,25:00:00,,251:00:00,moet worden gecorrigeerd,
+20-4-2021 5:00,26:00:00,,252:00:00,moet worden gecorrigeerd,
+20-4-2021 6:00,27:00:00,,253:00:00,moet worden gecorrigeerd,
 20-4-2021 7:00,,,254:00:00,moet worden gecorrigeerd,
 20-4-2021 8:00,,,255:00:00,moet worden gecorrigeerd,
 20-4-2021 9:00,,,256:00:00,moet worden gecorrigeerd,
@@ -285,7 +285,7 @@ Tijdstip,Timestamp,Timertijd,Totale tijd,Information,VOD link
 21-4-2021 12:00,,,283:00:00,moet worden gecorrigeerd,
 21-4-2021 13:00,,,284:00:00,moet worden gecorrigeerd,
 21-4-2021 14:00,,,285:00:00,moet worden gecorrigeerd,
-21-4-2021 15:00,,,286:00:00,,
+21-4-2021 15:00,,,286:00:00,moet worden gecorrigeerd,
 21-4-2021 16:00,,,287:00:00,,
 21-4-2021 17:00,,,288:00:00,,
 21-4-2021 18:00,,,289:00:00,,
